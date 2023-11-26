@@ -16,9 +16,13 @@ int main()
 		case '+':
 			cout << Sum(n1, n2)<<endl;
 			break;
+   		case '-':
+			cout << Sub(n1, n2)<<endl;
+			break;
 		default:
 			cout << "Sorry, function is developing"<<endl;
 	}
 	system("pause");
 	return 0;
 }
+
