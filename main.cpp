@@ -26,7 +26,7 @@ int main()
 			cout << Div(n1, n2) << endl;
 			break;
 		default:
-			cout << "Sorry, function is developing"<<endl;
+			cout << "Sorry, wrong choice"<<endl;
 	}
 	system("pause");
 	return 0;
