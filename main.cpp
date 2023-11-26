@@ -19,6 +19,12 @@ int main()
    		case '-':
 			cout << Sub(n1, n2)<<endl;
 			break;
+		case '*':
+			cout << Mul(n1, n2) << endl;
+			break;
+		case '/':
+			cout << Div(n1, n2) << endl;
+			break;
 		default:
 			cout << "Sorry, function is developing"<<endl;
 	}
