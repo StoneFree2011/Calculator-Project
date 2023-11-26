@@ -3,7 +3,7 @@
 using namespace std;
 int main()
 {
-	int n1, n2;
+	double n1, n2;
 	char oper;
 	cout << "Input 1st number: " << endl;
 	cin >> n1;
@@ -11,7 +11,18 @@ int main()
 	cin >> oper;
 	cout << "Input 2nd number: " << endl;
 	cin >> n2;
-	cout << "Please wait! Functions are developing!" << endl;
+	switch (oper)
+	{
+		case '+':
+			cout << Sum(n1, n2)<<endl;
+			break;
+   		case '-':
+			cout << Sub(n1, n2)<<endl;
+			break;
+		default:
+			cout << "Sorry, function is developing"<<endl;
+	}
 	system("pause");
 	return 0;
-}
+}
+
